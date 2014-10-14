@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="scripts" projectFiles="true">
+      </logicalFolder>
+      <logicalFolder name="scripts_v3" displayName="scripts_v3" projectFiles="true">
+        <itemPath>scripts_v3/distclaves.sh</itemPath>
+        <itemPath>scripts_v3/readme</itemPath>
+        <itemPath>scripts_v3/scopy.sh</itemPath>
+      </logicalFolder>
+      <itemPath>alltoall.c</itemPath>
+      <itemPath>cpi.c</itemPath>
+      <itemPath>hello.c</itemPath>
+      <itemPath>trivial.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>scripts_v3</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="alltoall.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cpi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hello.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts_v3/distclaves.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts_v3/readme" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts_v3/scopy.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="trivial.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="alltoall.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="cpi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="hello.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="scripts_v3/distclaves.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts_v3/readme" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="scripts_v3/scopy.sh" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="trivial.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

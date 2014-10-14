@@ -1,0 +1,22 @@
+****************
+*** distclaves.sh:
+
+Copia la clave publica de ssh, a los ordenadores de la red para que no pida la clave al hacer ssh. Al ejecutar este program hace falta escribir la contraseña para cada ordenador.
+necesita como argumento la lista de ordenadores remotos. El primer ordenador de la lista debe ser la propia maquina (se puede usar el fichero bhosts.def que se usa para lam)
+En el caso de que en algun ordenador no exista la carpeta .ssh, se crea.
+
+Ejemplo: ./distclaves.sh bhosts.def
+
+
+*************
+*** scopy.sh:
+
+Permite copiar un fichero a varios ordenadores. Necesita como argumento la lista de hosts, igual que el script anterior. Como segundo argumento toma el path del fichero a copiar (puede ser relativo o absoluto).
+
+Ejemplo: ./scopy.sh bhosts.def practica1/a.out
+
+Esto intentara copiar el fichero a la misma carpeta en todos los ordenadores. En el caso de que no existe la misma estructura de directorios, el programa lo intenta crear.
+
+
+********************
+*** Autor: Stefan Wehner
